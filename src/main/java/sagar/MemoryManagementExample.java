@@ -5,8 +5,11 @@ public class MemoryManagementExample {
 
     public static void main(String[] args) {
 
+        //primitive
         int primitiveVariable=10;
+        //object
         Person personObj=new Person();
+        //string literal
         String stringLiteral="24";
         MemoryManagementExample memoryManagementExample=new MemoryManagementExample();
         memoryManagementExample.memoryManagementTest(personObj);
